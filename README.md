@@ -1,6 +1,6 @@
 # Occupancy Grid Map From Monocular Camera Frame
 
-This repository hosts MATLAB script for generating occupancy grid map from a monocular camera frame.
+This repository hosts MATLAB script for generating occupancy grid map from a monocular camera frame. The trained DNN is attached separately with [this](https://github.com/Tinker-Twins/Occupancy_Grid_Map_From_Monocular_Camera_Frame/releases/tag/v0.1.0) release.
 
 The monocular camera frame (first person view) is passed to a deep neural network trained to estimate free space around a vehicle
 using semantic segmentation. Free space estimation identifies areas in the environment where the ego vehicle can drive without hitting
